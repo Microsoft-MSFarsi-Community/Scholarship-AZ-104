@@ -1,7 +1,24 @@
-Group#1
-Group#1
-Group#1
-Group#1
-Group#1
-Group#1
-
+Private and Local .NET Application with Automated Photo Upload Scenario
+Scenario Overview: A company, Global Media Corp, is implementing a private and local .NET application hosted in Canada. This application will serve specific internal business needs. Additionally, a separate virtual machine located in Germany is set up to automatically upload approximately 1,000 photos daily to a solution in Canada. These photos are considered non-critical, so routine access to them is not necessary.
+As an Azure Administrator, your task is to design and implement this scenario while ensuring that the .NET application can handle high-demand requests efficiently and that cost and security considerations are prioritized.
+Goals:
+Deploy a Private .NET Application: Implement a .NET application in Azure Canada that is accessible only from within the Germany region, ensuring that it can handle high-demand requests efficiently.
+Automate Photo Uploads: Set up an automated solution for the virtual machine in Germany to upload photos daily to a specified location in Canada.
+Cost and Security Optimization: Ensure that both the application and the photo upload process are cost-effective and secure, adhering to company policies regarding data security and expenditure.
+Student Notes:
+Local .NET Application Deployment: Students should deploy the .NET application using Azure resources in the Canada region.
+Automated Upload Process: Design an automated process for the VM in Germany to upload photos to the Canadian storage solution.
+ 
+Important Note:
+Please exclude Azure WAF (Web Application Firewall) and Azure Firewall from your security and architectural design for now. These can be postponed and should not be included in your initial implementation.
+ 
+Important Considerations:
+Cost Management: Evaluate the costs associated with the chosen Azure services.
+Security Practices: Students should focus on securing the application and the data transfer process.
+ 
+Expectations:
+Application Deployment: Students should successfully deploy the .NET application in the Azure Canada region.
+Automated Upload Demonstration: Students must show how the virtual machine in Germany automatically uploads photos to the Canadian solution.
+Cost and Security
+Scenario Summary:
+In this scenario, students will design and implement a private .NET application hosted in Canada, set up automated photo uploads from a VM in Germany, and prioritize cost and security considerations in their architecture. They will focus on delivering a robust, scalable, and secure solution tailored to the company's needs.
